@@ -24,7 +24,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r ../../BeachBackEnd/requirements.txt
+        pip install -r ./BeachBackEnd/requirements.txt
     - name: Run Tests
       run: |
-        python ../../BeachBackEnd/manage.py test
+        python ./BeachBackEnd/manage.py test
