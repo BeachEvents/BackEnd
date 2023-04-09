@@ -1,8 +1,3 @@
-from django.shortcuts import HttpResponse
-
+from django.shortcuts import render
 
 # Create your views here.
-def get(request):
-    print("this is the ")
-    return HttpResponse("Fucking thing")
-
